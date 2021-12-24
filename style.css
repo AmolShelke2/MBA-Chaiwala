@@ -22,8 +22,8 @@ img {
 .line {
   width: 100vw;
   opacity: 0.2;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 body {
@@ -58,20 +58,33 @@ main {
 
 /* navbar  */
 
-.nav-bar ul {
+.nav-ul {
   font-weight: bold;
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.nav-bar ul li {
+.hamburger {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  display: none;
+  font-size: 20px;
+}
+
+.hamburger:focus {
+  outline: none;
+}
+
+.nav-ul li {
   padding: 10px;
   font-size: 20px;
 }
 
-.nav-bar ul li a {
+.nav-ul a {
   text-decoration: none;
   color: #ed1e79;
 }
@@ -424,6 +437,20 @@ main {
   outline: none;
 }
 @media screen and (max-width: 750px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-ul {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .nav-ul.active {
+    display: flex;
+  }
+
   .card-img img {
     width: 100px;
     margin: 2px 2px;
@@ -446,9 +473,9 @@ main {
     width: 300px;
   }
 
-  .nav-bar ul {
+  /* .nav-bar ul {
     display: flex;
-  }
+  } */
 
   .academy-logo img {
     margin: 0 auto;
@@ -459,12 +486,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  .nav-bar ul li {
-    padding: 3px;
-    font-size: 19px;
-    font-weight: bold;
   }
 
   main {
