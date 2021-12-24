@@ -24,8 +24,8 @@ Prafull Billore is the best Entruprenuer In India. almost Insipiration of every 
 
 ## more about me
 
-- [@Amol_shelke09](https://twitter.comAmol_shelke09)  
-  -[Portfolio](https://portfolio-amolshelke2.vercel.app/)
+- [@Amol_shelke09](https://twitter.comAmol_shelke09)
+- [Portfolio](https://portfolio-amolshelke2.vercel.app/)
 
 ## who am I
 
@@ -33,4 +33,4 @@ I'm a bachelor student currently learning front end Development and. and coding 
 
 ## Inspiration
 
--[Pavan Jadhaw](https://github.com/pavanjadhaw)
+- [Pavan Jadhaw](https://github.com/pavanjadhaw)
