@@ -1,6 +1,6 @@
 # MBA CHAIWALA
 
-Hey Everyone this project is Created By me Amol Shelke. this website is one of my favourite Entrepruner And I just look at the home page and I love the UI so I think to create as same as the page is It took me time because for this website no one uploaded a tutorial so I have to create this on my own And I proud myself that I complete my Idea.
+Hey Everyone this project is Created By me Amol Shelke. this website is one of my favourite Entrepruner And I just look at the home page and I love the UI so I think to create as same as the page is, It took me time because for this website no one uploaded a tutorial so I have to create this on my own And I proud myself that I complete my Idea.
 
 # live website 
 - [Mba-chaiwala.vercel.app](https://mba-chaiwala.vercel.app/)
