@@ -8,8 +8,6 @@ Hey Everyone this project is Created By me Amol Shelke. this website is one of m
 
 ![MBA Chai Wala(Amol_shelke) - Google Chrome 24-12-2021 11 38 33 AM](https://user-images.githubusercontent.com/95171638/147323555-fbd0155a-3408-4019-a598-73f7a72e12d1.png)
 
-
-
 ## Technologies
 
 - HTML5
@@ -30,15 +28,9 @@ Prafull Billore is the best Entruprenuer In India. almost Insipiration of every 
 
 ## more about me
 
-<<<<<<< HEAD
-- [@Amol_shelke09](https://twitter.comAmol_shelke09)
-- [Portfolio](https://portfolio-amolshelke2.vercel.app/)
-
-=======
 - [@Amol_shelke09](https://twitter.comAmol_shelke09)  
   -[Portfolio](https://portfolio-amolshelke2.vercel.app/)
-  
->>>>>>> df8d000a1070e655867f4036c5549e4e6fb460b6
+
 ## who am I
 
 I'm a bachelor student currently learning front end Development and. and coding Addicted🌍
