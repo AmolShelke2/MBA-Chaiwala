@@ -22,7 +22,8 @@ img {
 .line {
   width: 100vw;
   opacity: 0.2;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 body {
@@ -423,6 +424,12 @@ main {
   outline: none;
 }
 @media screen and (max-width: 750px) {
+  .card-img img {
+    width: 100px;
+    margin: 2px 2px;
+    padding: 5px;
+  }
+
   .insight {
     display: flex;
     flex-direction: column;
