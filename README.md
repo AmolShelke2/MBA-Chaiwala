@@ -2,7 +2,10 @@
 
 Hey Everyone this project is Created By me Amol Shelke. this website is one of my favourite Entrepruner And I just look at the home page and I love the UI so I think to create as same as the page is It took me time because for this website no one uploaded a tutorial so I have to create this on my own And I proud myself that I complete my Idea.
 
-## Demo
+# live website 
+- [Mba-chaiwala.vercel.app](https://mba-chaiwala.vercel.app/)
+
+# Demo
 
 ![MBA Chai Wala(Amol_shelke) - Google Chrome 24-12-2021 11 38 58 AM](https://user-images.githubusercontent.com/95171638/147323551-baa0b509-431f-4582-a803-f98fb6bc8fdf.png)
 
@@ -29,7 +32,7 @@ Prafull Billore is the best Entruprenuer In India. almost Insipiration of every 
 ## more about me
 
 - [@Amol_shelke09](https://twitter.comAmol_shelke09)  
-  -[Portfolio](https://portfolio-amolshelke2.vercel.app/)
+- [Portfolio](https://portfolio-amolshelke2.vercel.app/)
 
 ## who am I
 
