@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+:root {
+  --font-style: "Oswald", sans serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* All images  */
+img {
+  width: 400px;
+}
+
+/* after each section line  */
+.line {
+  width: 100vw;
+  opacity: 0.2;
+  margin-bottom: 100px;
+}
+
+body {
+  background: url(assets/Mask-Group-1.png);
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  margin: 10px 40px;
+}
+
+main {
+  padding: 10px 60px;
+}
+
+/* header  */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.header .main-logo img {
+  width: 190px;
+}
+
+/* navbar  */
+
+.nav-bar ul {
+  font-weight: bold;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar ul li {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: #ed1e79;
+}
+
+/* the first card  */
+.first-card {
+  background-color: #ed1e79;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-bottom: 5rem;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.first-card .text h2 {
+  font-family: var(--font-style);
+  font-weight: bold;
+  color: rgb(255, 255, 0);
+  text-shadow: 2px 2px 2px #fff;
+  line-height: 100px;
+  font-size: 50px;
+}
+
+.first-card .text p {
+  line-height: 35px;
+  font-size: 20px;
+  margin-bottom: 5rem;
+}
+
+.card-img img {
+  width: 200px;
+  float: right;
+  margin-left: 20px;
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+/* all buttons  */
+.btn {
+  background-color: rgb(255, 255, 0);
+  cursor: pointer;
+  color: #ed1e79;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 20px;
+  box-shadow: 10px 10px 4px #ed1e79;
+}
+
+.social-icons ul {
+  margin-top: 3rem;
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.social-icons ul li {
+  font-size: 20px;
+}
+
+.social-icons ul li a {
+  padding-right: 10px;
+}
+
+.social-icons ul li a i {
+  background-color: #fff;
+  padding: 2px;
+  color: #ed1e79;
+}
+
+/* first section ends  */
+
+/* quote section  */
+
+.quote {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.quote h2 {
+  font-weight: bold;
+  text-align: center;
+  color: #ed1e79;
+  text-shadow: 2px 2px 2px #000;
+  font-size: 40px;
+}
+
+.quote h3 {
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px #fff;
+}
+
+/* Academey section  */
+.academy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.academy-logo img {
+  padding: 2rem;
+  float: left;
+  margin-right: 50px;
+}
+
+.academy-text {
+  text-align: right;
+}
+
+.academy-text h2 {
+  font-family: var(--font-style);
+  font-weight: bold;
+  color: #ed1e79;
+  text-shadow: 2px 2px 2px #000;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.academy-text p {
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+
+/* Chai prenuer section  */
+.preneur {
+  margin-bottom: 5rem;
+}
+
+.preneur-text {
+  text-align: left;
+}
+.preneur-logo img {
+  padding: 2rem;
+  float: right;
+  margin-left: 50px;
+}
+
+.preneur-text h2 {
+  font-weight: bold;
+  font-family: var(--font-style);
+  color: #ed1e79;
+  text-shadow: 2px 2px 2px #000;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.preneur-text p {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+/* get motivated section starts  */
+
+.motivate {
+  text-align: right;
+  margin-bottom: 5rem;
+}
+
+.motivate-logo img {
+  padding: 2rem;
+  float: left;
+  margin-right: 50px;
+}
+
+.motivate-text h2 {
+  font-family: var(--font-style);
+  font-weight: bold;
+  color: #ed1e79;
+  font-size: 40px;
+  line-height: 50px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.motivate-text p {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+/* the insights */
+
+.insight {
+  width: 100%;
+  background-color: #ed1e79;
+  justify-content: space-between;
+  display: flex;
+  color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.insight h2 {
+  font-size: 30px;
+}
+
+/* MBA store  */
+.store {
+  text-align: left;
+  margin-bottom: 5rem;
+}
+
+.store-logo img {
+  float: right;
+  padding: 2rem;
+  margin-left: 40px;
+}
+
+.store-text h2 {
+  font-family: var(--font-style);
+  color: #ed1e79;
+  text-shadow: 2px 2px 2px #000;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+.store-text p {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+/* Chai-wala that cares  */
+.care {
+  text-align: right;
+  margin-bottom: 5rem;
+}
+
+.care-logo img {
+  float: left;
+  margin-right: 40px;
+  padding: 2rem;
+}
+
+.care-text h2 {
+  font-family: var(--font-style);
+  color: #ed1e79;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.care-text p {
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.care-text strong {
+  font-weight: bold;
+}
+
+/* chai wala that writes  */
+
+.write {
+  text-align: left;
+  margin-bottom: 5rem;
+}
+
+.write-logo img {
+  float: right;
+  margin-left: 40px;
+  padding: 2rem;
+}
+
+.write-text h2 {
+  font-family: var(--font-style);
+  color: #ed1e79;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.write-text p {
+  line-height: 30px;
+}
+
+/* chai pe charcha  */
+
+.chai-charcha {
+  text-align: right;
+}
+
+.chai-charcha .logo img {
+  float: left;
+  margin-right: 40px;
+  padding: 2rem;
+}
+
+.chai-charcha .text h2 {
+  font-family: var(--font-style);
+  color: #ed1e79;
+  font-weight: bold;
+  line-height: 60px;
+  text-shadow: 2px 2px 2px #000;
+  font-size: 40px;
+}
+
+.chai-charcha .text p {
+  line-height: 30px;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.form input {
+  padding: 20px;
+  border-radius: 10px;
+  color: #000;
+}
+
+.form button {
+  background-color: rgb(255, 255, 0);
+  cursor: pointer;
+  color: #ed1e79;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 20px;
+  box-shadow: 4px 4px 4px #ed1e79;
+}
+
+.form button:focus {
+  outline: none;
+}
+@media screen and (max-width: 750px) {
+  .insight {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  main {
+    align-items: center;
+  }
+
+  .line {
+    margin-top: 5rem;
+    width: 300px;
+  }
+
+  .nav-bar ul {
+    display: flex;
+  }
+
+  .academy-logo img {
+    margin: 0 auto;
+  }
+
+  .academy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-bar ul li {
+    padding: 3px;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 5px;
+  }
+
+  main {
+    padding: 10px 10px;
+  }
+}
